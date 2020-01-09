@@ -7,8 +7,8 @@ filters:
 #service_account_file: /tmp/service_account.json
 auth_kind: serviceaccount
 scopes:
- - 'https://www.googleapis.com/auth/cloud-platform'
- - 'https://www.googleapis.com/auth/compute.readonly'
+  - 'https://www.googleapis.com/auth/cloud-platform'
+  - 'https://www.googleapis.com/auth/compute.readonly'
 keyed_groups:
   # Create groups from GCE labels
   - prefix: gcp
