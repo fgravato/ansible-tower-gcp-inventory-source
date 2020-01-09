@@ -1,9 +1,9 @@
 plugin: gcp_compute
-#zones: # populate inventory with instances in these regions
-#  - us-east1-b
-#projects:
-#filters:
-#  - labels.env=dev
+zones: # populate inventory with instances in these regions
+  - us-east1-b
+projects:
+filters:
+  - labels.env=dev
 #service_account_file: /tmp/service_account.json
 auth_kind: serviceaccount
 scopes:
