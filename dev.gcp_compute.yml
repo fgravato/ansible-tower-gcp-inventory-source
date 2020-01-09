@@ -2,7 +2,7 @@ plugin: gcp_compute
 zones: # populate inventory with instances in these regions
   - us-east1-b
 projects:
-  - 524249575765
+  - "{{ gcp_project }}"
 filters:
   - labels.env=dev
 #service_account_file: /tmp/service_account.json
